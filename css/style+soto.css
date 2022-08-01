@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grilla{
+    display: grid;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+}
+
+li{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    height: 500px;
+    display: flex;
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(28, 28, 59);
+    display: flex;
+    color: white;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: 18px;
+}
+
+.instagram{
+    height: 30px;
+    width: 30px;
+}
+
+.youtube{
+    height: 30px;
+    width: 30px;
+}
+
+.spotify{
+    height: 30px;
+    width: 30px;
+}
+
+/*             VIEWPORT HASTA 600PX          */
+
+@media only screen and (max-width: 600px){
+
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    header h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+    }
+
+    .grilla{
+        background-color: black;
+        height: 2500px;
+        grid-template-columns: 90%;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px;
+        grid-template-areas:"foto1" 
+                            "foto2"
+                            "foto3"
+                            "foto4"
+                            "foto5"
+                            "foto6";
+        align-content: space-around;
+        justify-content: center;
+
+    }
+
+    ul{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo_header{
+        height: 30%;
+        width: 30%;
+    }
+
+    footer{
+        font-size: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    body{
+        height: 1800px;
+    }
+
+    .main_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        height: 800px;
+        border-bottom: 1px solid white;
+    }
+
+    .img_body{
+        height: 370px;
+        width: 350px;
+    }
+
+    .comentario{
+        color: white;
+        font-family: 'Inconsolata', monospace;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contenido{
+        height: 600px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .videoyt{
+        height: 300px;
+        width: 300px;
+    }
+
+    .romafonic{
+        flex-direction: row; 
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        margin: 10px;
+        font-family: 'MuseoModerno', cursive;
+
+    }
+
+    .grilla_discografia{
+        background-color: black;
+        height: 2300px;
+        display: flex;
+    
+    }
+
+    .lista_cancion{
+        background-color: black;
+        padding: 10px;
+    }
+
+    .nombre_album{
+        color: white;
+        text-align: center;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .song{
+        color: white;
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+        }
+
+    .tapa_disco{
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .discografia_main{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        gap: 80px;
+        padding: 20px;    
+    
+    }
+
+
+    .spot_disc{
+        height: 40px;
+        width: 40px;
+    }
+
+    .img_spot{
+        flex-direction: column;
+        align-items: center;
+    }
+
+  .padre_contenedor{
+        background-image: url(../img/publico1.jpg);
+        display: flex;
+        height: 1200px;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+  }
+
+
+    .form_titulo{
+        color: white;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
+    .texto_form{
+        color: white;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .main_musicos{
+        background-color: black;
+        height: 1800px;
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-areas:"foto1"
+                            "foto2"
+                            "foto3"
+                            "foto4";
+      
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid white;
+    
+    }
+    
+    .rocko{
+       height: 20%;
+       display: flex;
+        flex-direction: column;
+    }
+    
+    .tomi{
+        height: 20%;
+    }
+    
+    .marta{
+        height: 20%;
+    }
+    
+    .ezeq{
+        height: 20%;
+    }
+    
+    .img_rocko{
+        height: 200px;
+    }
+    
+    .img_tomi{
+        height: 200px;
+    }
+    
+    .img_marta{
+        height: 200px;
+    }
+    
+    .img_ezeq{
+        height: 200px;
+    }
+
+    
+    .name_inst{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+     
+    
+    }
+    
+    .inst{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .img_insta{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .historia_banda{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        height: 1000px;
+    }
+
+    .img_bandafp{
+        height: 300px;
+        width: 90%;
+    }
+
+    .titulo_historia{
+        color: white;
+        font-family: 'Mate SC', serif;
+    }
+
+    .historia{
+        color: white;
+        font-family: 'Baloo Da 2', normal;
+    }
+
+}
+
+
+/*              GALERIA VIEWPORT + 600PX         */
+
+@media only screen and (min-width: 600px){
+    
+
+    header{
+        height: 300px;
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .titulo_header{
+        font-size: 70px;
+    }
+
+    .logo_header{
+        height: 40%;
+        width: 10%;
+    }
+
+    .header_menu li{
+        flex-direction: row;
+        margin: 0rem 1.5rem;
+    }
+
+    .grilla{
+        background-color: black;
+        height: 1700px;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 500px 500px 500px;
+        grid-template-areas:"foto1 foto2"
+                            "foto3 foto4"
+                            "foto5 foto6";
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+
+  
+    .main_body{
+        background-color: black;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    .img_body{
+        padding: 10px;
+        height: 500px;
+        width: 60%;
+    }
+
+    .comentario{
+        color: white;
+        font-family: 'Inconsolata', monospace;
+        font-size: 45px;
+        text-align: center;
+  
+    }
+
+    .contenido{
+        height: 800px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-around;
+    }
+
+    .videoyt{
+        width: 1100px;
+        height: 600px;
+    }
+
+    .romafonic{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'MuseoModerno', cursive;
+    }
+
+
+
+    .grilla_racing{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 500px 500px 500px 500px;
+        grid-template-areas:"album_uno album_dos"
+                            "album_tres album_cuatro";
+        height: 2000px;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+
+    }
+
+    .album_uno{
+        text-align: center;
+ 
+    }
+
+    .album_dos{
+        text-align: center;
+ 
+    }
+
+    .album_tres{
+        text-align: center;
+
+    }
+
+    .album_cuatro{
+        text-align: center;
+   
+    }
+
+    .tapa_disco{
+        height: 200px;
+        width: 200px;
+    }
+
+    .spot_disc{
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .lista_cancion{
+        display: inline-block;
+        align-items: center;
+        background-color: black;
+    }
+
+    .song{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+    }
+    
+    .nombre_album{
+        color: white;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 30px;
+    }
+
+
+    .padre_contenedor{
+        background-image: url(../img/publico1.jpg);
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+    }
+
+    
+    .form_titulo{
+        color: white;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 80px;
+    }
+
+    .texto_form{
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+    }
+
+    .main_musicos{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        height: 800px;
+        text-align: center;
+        padding: 50px;
+        border-bottom: 1px solid white;
+    
+    }
+    
+    .rocko{
+       height: 30%;
+       width: 300px;
+    }
+    
+    .tomi{
+        height: 30%;
+        width: 300px;
+    }
+    
+    .marta{
+        height: 30%;
+        width: 300px;
+    }
+    
+    .ezeq{
+        height: 30%;
+        width: 300px;
+    }
+    
+    .img_rocko{
+        height: 580px;
+        width: 300px;
+    }
+    
+    .img_tomi{
+        height: 580px;
+        width: 300px;
+    }
+    
+    .img_marta{
+        height: 580px;
+        width: 300px;
+    }
+    
+    .img_ezeq{
+        height: 580px;
+        width: 300px;
+    }
+    
+    .name_inst{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding: 15px;
+    
+    }
+    
+    .inst{
+        height: 30px;
+        width: 30px;
+    }
+    
+    
+    .biografia_padre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 30%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    
+    .biografia_texto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-aroundo;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Baloo Da 2', normal;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .img_bad{
+        height: 500px;
+        width: 600px;
+        padding: 10px;
+    }
+    
+    .titulo_bio{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        font-family: 'Mate SC', serif;
+        font-size: 60px;
+    }
+
+    .historia_banda{
+        height: 900px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        justify-content: space-around;
+        text-align: center;   
+    }
+
+    .img_fuma{
+        height: 50%;
+        width: 70%;
+        display: inline;
+        padding: 1rem 12rem;
+
+    }
+
+    .titulo_historia{
+        color: white;
+        font-family: 'Mate SC', serif;
+    }
+
+    .historia{
+        color: white;
+        font-family: 'Baloo Da 2', normal;
+    }
+
+
+
+
+
+
+
+}
+
+
+
