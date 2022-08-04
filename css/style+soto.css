@@ -57,295 +57,9 @@ footer{
     width: 30px;
 }
 
-/*             VIEWPORT HASTA 600PX          */
-
-@media only screen and (max-width: 600px){
-
-
-    header{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-    }
-    header h1{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 50px;
-    }
-
-    .grilla{
-        background-color: black;
-        height: 2500px;
-        grid-template-columns: 90%;
-        grid-template-rows: 400px 400px 400px 400px 400px 400px;
-        grid-template-areas:"foto1" 
-                            "foto2"
-                            "foto3"
-                            "foto4"
-                            "foto5"
-                            "foto6";
-        align-content: space-around;
-        justify-content: center;
-
-    }
-
-    ul{
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .logo_header{
-        height: 30%;
-        width: 30%;
-    }
-
-    footer{
-        font-size: 15px;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-    }
-
-    body{
-        height: 1800px;
-    }
-
-    .main_body{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        background-image: linear-gradient(black,rgb(65, 25, 25));
-        height: 800px;
-        border-bottom: 1px solid white;
-    }
-
-    .img_body{
-        height: 370px;
-        width: 350px;
-    }
-
-    .comentario{
-        color: white;
-        font-family: 'Inconsolata', monospace;
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .contenido{
-        height: 600px;
-        background-image: linear-gradient(rgb(65, 25, 25),black);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .videoyt{
-        height: 300px;
-        width: 300px;
-    }
-
-    .romafonic{
-        flex-direction: row; 
-        justify-content: space-between;
-        color: white;
-        text-align: center;
-        font-size: 13px;
-        margin: 10px;
-        font-family: 'MuseoModerno', cursive;
-
-    }
-
-    .grilla_discografia{
-        background-color: black;
-        height: 2300px;
-        display: flex;
-    
-    }
-
-    .lista_cancion{
-        background-color: black;
-        padding: 10px;
-    }
-
-    .nombre_album{
-        color: white;
-        text-align: center;
-        font-family: 'Edu SA Beginner', cursive;
-        font-size: 20px;
-        padding: 20px;
-    }
-    .song{
-        color: white;
-        font-size: 15px;
-        font-family: 'Oswald', sans-serif;
-        }
-
-    .tapa_disco{
-        height: 200px;
-        width: 200px;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .discografia_main{
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        text-align: center;
-        align-items: center;
-        gap: 80px;
-        padding: 20px;    
-    
-    }
-
-
-    .spot_disc{
-        height: 40px;
-        width: 40px;
-        padding: 20px;   
-    }
-
-    .img_spot{
-        flex-direction: column;
-        align-items: center;
-    }
-
-  .padre_contenedor{
-        background-image: url(../img/publico1.jpg);
-        display: flex;
-        height: 1200px;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-  }
-
-
-    .form_titulo{
-        color: white;
-        font-family: 'Edu SA Beginner', cursive;
-    }
-
-    .texto_form{
-        color: white;
-        font-family: 'Anton', sans-serif;
-    }
-    
-    .main_musicos{
-        background-image: linear-gradient(black,rgb(43, 21, 21));
-        height: 1800px;
-        display: grid;
-        grid-template-columns: 90%;
-        grid-template-rows: 400px 400px 400px 400px;
-        grid-template-areas:"foto1"
-                            "foto2"
-                            "foto3"
-                            "foto4";
-      
-        justify-content: center;
-        align-items: center;
-        border-bottom: 1px solid white;
-    
-    }
-    
-    .rocko{
-       height: 20%;
-       display: flex;
-        flex-direction: column;
-    }
-    
-    .tomi{
-        height: 20%;
-    }
-    
-    .marta{
-        height: 20%;
-    }
-    
-    .ezeq{
-        height: 20%;
-    }
-    
-    .img_rocko{
-        height: 200px;
-    }
-    
-    .img_tomi{
-        height: 200px;
-    }
-    
-    .img_marta{
-        height: 200px;
-    }
-    
-    .img_ezeq{
-        height: 200px;
-    }
-
-    
-    .name_inst{
-        color: white;
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-     
-    
-    }
-    
-    .inst{
-        height: 30px;
-        width: 30px;
-    }
-    
-    .img_insta{
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
-
-    .historia_banda{
-        background-image: linear-gradient(rgb(43, 21, 21),black);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        text-align: center;
-        justify-content: space-around;
-        height: 1000px;
-    }
-
-    .img_bandafp{
-        height: 300px;
-        width: 90%;
-    }
-
-    .titulo_historia{
-        color: white;
-        font-family: 'Mate SC', serif;
-    }
-
-    .historia{
-        color: white;
-        font-family: 'Baloo Da 2', normal;
-    }
-
+button:hover{
+    font-size: 30px;
 }
-
-
-
-
-
-
 
 /*              GALERIA VIEWPORT + 600PX         */
 
@@ -374,17 +88,28 @@ footer{
         margin: 0rem 1.5rem;
     }
 
-    .grilla{
-        background-image: linear-gradient(black,rgb(43, 21, 21),black);
-        height: 1700px;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 500px 500px 500px;
-        grid-template-areas:"foto1 foto2"
-                            "foto3 foto4"
-                            "foto5 foto6";
-        justify-content: space-evenly;
-        align-content: space-around;
+    .carrusel{
+            width: 800px;
+            height: 800px;
     }
+
+    .cuerpogaleria{
+        background-color: black;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    p{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        margin: 15px;        
+    }
+
 
     footer{
       display: flex;
@@ -395,10 +120,15 @@ footer{
       border-bottom: 1px solid white;
     }
 
-  
+
+
+    /*        INDEX   */ 
+
+
     .main_body{
         background-image: linear-gradient(black,rgb(65, 25, 25));
         height: 800px;
+        
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -450,6 +180,10 @@ footer{
 
 
 
+
+
+    /*        DISCOGRAFIA   */ 
+
     .grilla_racing{
         background-color: black;
         display: grid;
@@ -466,36 +200,43 @@ footer{
 
     .album_uno{
         text-align: center;
- 
-    }
+     }
+
+     .album_uno:hover{
+        transform: scale(1.5,1.1);
+     }
 
     .album_dos{
         text-align: center;
- 
     }
+
+    .album_dos:hover{
+        transform: scale(1.5,1.1);
+     }
 
     .album_tres{
         text-align: center;
 
     }
 
+    .album_tres:hover{
+        transform: scale(1.5,1.2);
+     }
+
     .album_cuatro{
         text-align: center;
    
     }
+
+    .album_cuatro:hover{
+        transform: scale(1.5,1.3);
+     }
 
     .tapa_disco{
         height: 200px;
         width: 200px;
     }
 
-    .spot_disc{
-        height: 40px;
-        width: 40px;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;    
-    }
 
     .lista_cancion{
         display: inline-block;
@@ -518,10 +259,17 @@ footer{
         font-size: 30px;
     }
 
+    .bi-spotify{
+        font-size: 20px;
+        color: yellow;
+    }
 
+        /*        CONTACTO   */
+        
+        
     .padre_contenedor{
         background-image: url(../img/publico1.jpg);
-        height: 1400px;
+        height: 1200px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -530,6 +278,8 @@ footer{
         color: white;
     }
 
+
+    /*        MUSICOS   */ 
     
     .form_titulo{
         color: white;
@@ -549,7 +299,7 @@ footer{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        height: 800px;
+        height: 1000px;
         text-align: center;
         padding: 50px;
         border-bottom: 1px solid white;
@@ -599,9 +349,8 @@ footer{
     .name_inst{
         color: white;
         font-family: 'Oswald', sans-serif;
-        text-align: center;
-        padding: 15px;
-    
+        text-align: center;   
+        padding: 10px;
     }
     
     .inst{
@@ -650,7 +399,7 @@ footer{
     }
 
     .historia_banda{
-        height: 900px;
+        height: 1200px;
         background-image: linear-gradient(rgb(43, 21, 21),black);
         display: flex;
         flex-direction: column;
@@ -661,22 +410,83 @@ footer{
     }
 
     .img_fuma{
-        height: 50%;
-        width: 70%;
+        height: 60%;
+        transform: rotatey(360deg);
+        transition-duration: 10s;
         display: inline;
         padding: 1rem 12rem;
+        align-items: center;
 
     }
 
     .titulo_historia{
         color: white;
         font-family: 'Mate SC', serif;
+        animation-name: titulohistoria;
+        animation-duration: 7s;
+        font-size: 50px;
     }
+
+    @keyframes titulohistoria{
+        
+        0%{
+            font-size: 10px;
+            color: white;
+        }
+
+        30%{
+            font-size: 20px;
+            color: white;
+        }
+
+        60%{
+            font-size: 30px;
+            color: white;
+        }
+
+        90%{
+            font-size: 40px;
+            color: white;
+        }
+    }
+
+
+
 
     .historia{
         color: white;
         font-family: 'Baloo Da 2', normal;
     }
+
+    .tomiuno{
+        height: 755px;
+    }
+
+    .rockop{
+        color: black;
+        font-size: 20px;
+    }
+
+    .tomip{
+        color: black;
+        font-size: 20px;
+    }
+
+    .martap{
+        color: black;
+        font-size: 20px;
+    }
+
+    .ezep{
+        color: black;
+        font-size: 20px;
+    }
+
+
+
+
+
+
 
 }
 
