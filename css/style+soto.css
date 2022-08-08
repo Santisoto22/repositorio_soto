@@ -128,7 +128,6 @@ button:hover{
     .main_body{
         background-image: linear-gradient(black,rgb(65, 25, 25));
         height: 800px;
-        
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -490,5 +489,295 @@ button:hover{
 
 }
 
+
+
+
+
+
+
+/*          VIEWPORT MAXIMO 600PX    */
+
+
+@media only screen and (max-width: 600px){
+
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    header h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+    }
+
+    .grilla{
+        background-color: black;
+        height: 2500px;
+        grid-template-columns: 90%;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px;
+        grid-template-areas:"foto1" 
+                            "foto2"
+                            "foto3"
+                            "foto4"
+                            "foto5"
+                            "foto6";
+        align-content: space-around;
+        justify-content: center;
+
+    }
+
+    .img_body{
+        filter: grayscale(100%);
+    }
+
+    .img_body:hover{
+        filter: grayscale(0%);
+    }
+
+    ul{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo_header{
+        height: 30%;
+        width: 30%;
+    }
+
+    footer{
+        font-size: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    body{
+        height: 1800px;
+    }
+
+    .main_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        height: 800px;
+        border-bottom: 1px solid white;
+    }
+
+    .img_body{
+        height: 370px;
+        width: 350px;
+    }
+
+    .comentario{
+        color: white;
+        font-family: 'Inconsolata', monospace;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contenido{
+        height: 600px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .videoyt{
+        height: 300px;
+        width: 300px;
+    }
+
+    .romafonic{
+        flex-direction: row; 
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        margin: 10px;
+        font-family: 'MuseoModerno', cursive;
+
+    }
+
+    .grilla_discografia{
+        background-color: black;
+        height: 2300px;
+        display: flex;
+    
+    }
+
+    .lista_cancion{
+        background-color: black;
+        padding: 10px;
+    }
+
+    .nombre_album{
+        color: white;
+        text-align: center;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .song{
+        color: white;
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+        }
+
+    .tapa_disco{
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .discografia_main{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        gap: 80px;
+        padding: 20px;    
+    
+    }
+
+
+    .spot_disc{
+        height: 40px;
+        width: 40px;
+    }
+
+    .img_spot{
+        flex-direction: column;
+        align-items: center;
+    }
+
+  .padre_contenedor{
+        background-image: url(../img/publico1.jpg);
+        display: flex;
+        height: 1200px;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+  }
+
+
+    .form_titulo{
+        color: white;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
+    .texto_form{
+        color: white;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .main_musicos{
+        background-image: linear-gradient(black,rgb(48, 12, 12));
+        height: 3000px;
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-areas:"foto1"
+                            "foto2"
+                            "foto3"
+                            "foto4";
+        justify-items: center;
+        border-bottom: 1px solid white;
+        text-align: center;
+        align-content: space-around;
+    }
+    
+    .nombreyp{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .inst{
+        height: 30px;
+        width: 30px;
+    }
+    
+
+
+
+
+
+    .historia_banda{
+        background-image: linear-gradient(rgb(48, 12, 12),black);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        height: 1000px;
+    }
+
+
+    @keyframes titulohistoria{
+        
+        0%{
+            font-size: 10px;
+            color: white;
+        }
+
+        30%{
+            font-size: 20px;
+            color: white;
+        }
+
+        60%{
+            font-size: 30px;
+            color: white;
+        }
+
+        90%{
+            font-size: 40px;
+            color: white;
+        }
+    }
+
+
+
+    .img_bandafp{
+        height: 300px;
+        width: 500px;
+        transform: rotateX(360deg);
+        transition-duration: 5s;
+        
+    }
+
+    .titulo_historia{
+        animation-duration: 4s;
+        animation-name: titulohistoria;
+        color: white;
+        font-family: 'Mate SC', serif;
+    }
+
+    .historia{
+        color: white;
+        animation-name: historiatexto;
+        text-align: center;
+        transition-duration: 4s;
+        transform: rotate(360deg);
+        font-family: 'Baloo Da 2', normal;
+    }
 
 
